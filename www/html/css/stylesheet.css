@@ -1,0 +1,101 @@
+body {
+	width: 100%;
+	background-color: #E2E2E2;
+	overflow-x: hidden;
+}
+.content {
+	margin: 0 auto;
+	min-width: 250px;
+	max-width: 750px;
+	border: solid black 1px;
+	border-radius: 3px;
+	padding: 21px;
+	background-color: white;
+}
+
+.button {
+    
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px;
+    font-weight: bold;
+}
+
+.red {
+	background-color: #f44336;
+}
+
+.green {
+	background-color: #4CAF50;
+}
+
+.line {
+	margin: 10px 0;
+	width: 100%;
+}
+
+.line textarea {
+	display: block;
+	width: 98%;
+	height: 300px;
+	font-size: 13pt;
+	resize: none;
+}
+
+.line.sep {
+	border-top: solid black 1px;
+	text-align: center;
+}
+
+
+
+.init-hide {
+	display: none;
+}
+
+.label{
+	font-size: 14pt;
+}
+
+#search {
+	font-size: 14pt;
+	width: 50%;
+}
+
+.error_desc {
+	font-weight: bold;
+	font-size: 14pt;
+	color: #f44336;
+}
+
+#apt-div {
+	width: 100%;
+}
+
+#apt-div table {
+	width: 100%;
+	text-align: center;
+	border-collapse: collapse;
+	margin-top: 30px;
+}
+
+#apt-div table th,td {
+	border-bottom: 1px solid #ddd;
+	width: 25%;
+	padding: 5px;
+}
+
+#apt-div table tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+#apt-div table tr td:last-child, th:last-child {
+	text-align: left;
+	width: 50%;
+}
